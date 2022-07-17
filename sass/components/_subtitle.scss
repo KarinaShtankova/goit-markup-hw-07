@@ -1,0 +1,15 @@
+/* Title */
+
+.subtitle {
+	line-height: 1.14;
+	letter-spacing: var(--primary-letter-spacing);
+	text-transform: uppercase;
+
+	&--inverse {
+		color: var(--light-text-color);
+	}
+
+	&--centered {
+		text-align: center;
+	}
+}
