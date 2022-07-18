@@ -1,6 +1,9 @@
 /* Benefits */
 
 .benefits {
+
+	@extend %section;
+	
 	&__list {
 		display: flex;
 	}

@@ -1,7 +1,11 @@
 /* Clients */
 
 .clients {
+	@extend %section;
+
 	&__title {
+		@include title();
+
 		margin-bottom: 50px;
 	}
 

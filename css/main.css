@@ -45,6 +45,11 @@
   overflow: hidden;
 }
 
+.clients, .team, .work, .benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 body {
   background-color: var(--main-background-color);
   color: var(--primary-text-color);
@@ -101,11 +106,6 @@ img {
   padding-right: 15px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 /* Button */
 .button {
   display: -webkit-box;
@@ -144,15 +144,7 @@ img {
   background-color: var(--hover-btn-color);
 }
 
-/* Title */
-.title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: var(--primary-letter-spacing);
-}
-
-/* Title */
+/* Title */ /* Title */
 .subtitle {
   line-height: 1.14;
   letter-spacing: var(--primary-letter-spacing);
@@ -522,6 +514,10 @@ img {
   padding-top: 0;
 }
 .work__title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: var(--primary-letter-spacing);
   margin-bottom: 50px;
 }
 .work__list {
@@ -557,6 +553,10 @@ img {
   background-color: var(--secondary-background-color);
 }
 .team__title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: var(--primary-letter-spacing);
   margin-bottom: 50px;
 }
 .team__list {
@@ -595,6 +595,10 @@ img {
 
 /* Clients */
 .clients__title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: var(--primary-letter-spacing);
   margin-bottom: 50px;
 }
 .clients__list {

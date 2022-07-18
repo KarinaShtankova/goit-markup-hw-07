@@ -1,9 +1,15 @@
 /* Team */
 .team {
+
+    @extend %section;
+
     background-color: var(--secondary-background-color);
 
 
     &__title {
+
+        @include title();
+        
             margin-bottom: 50px;
         }
     

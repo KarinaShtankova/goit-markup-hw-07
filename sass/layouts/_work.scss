@@ -1,8 +1,14 @@
 /* Work */
 .work {
+    
+    @extend %section;
+
 	padding-top: 0;
 
 	&__title {
+
+    @include title();
+
 		margin-bottom: 50px;
 	}
 
