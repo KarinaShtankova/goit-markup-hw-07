@@ -146,6 +146,8 @@ img {
 
 /* Title */ /* Title */
 .subtitle {
+  font-size: var(---primary-font-size);
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: var(--primary-letter-spacing);
   text-transform: uppercase;
